@@ -358,7 +358,7 @@ function updateMeta(n){
   document.getElementById('wordcount-'+n).textContent = words+' words';
   const warn = document.getElementById('wordwarn-'+n);
   if(words>0 && words<50){ warn.textContent='Below 50-word minimum'; warn.className='warn'; }
-  else if(words>60){ warn.textContent='Over the 60-word target — extra words beyond 60 won\\'t earn structure credit'; warn.className='warn'; }
+  else if(words>60){ warn.textContent='Over the 60-word target — extra words beyond 60 won&#39;t earn structure credit'; warn.className='warn'; }
   else { warn.textContent=''; }
 }
 
